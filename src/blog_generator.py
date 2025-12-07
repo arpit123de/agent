@@ -4,7 +4,10 @@ from typing import Dict, List, Optional
 import os
 import logging
 from datetime import datetime
-from .config import get_secret
+try:
+    from src.config import get_secret
+except ImportError:
+    from config import get_secret
 
 class LinkedInBlogGenerator:
     def __init__(self):

@@ -13,7 +13,10 @@ import logging
 from datetime import datetime
 from typing import Dict, List, Optional, Any
 import json
-from .config import get_secret
+try:
+    from src.config import get_secret
+except ImportError:
+    from config import get_secret
 
 class EmailSender:
     """
