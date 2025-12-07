@@ -18,5 +18,4 @@ An AI-powered LinkedIn blog generator with email distribution capabilities, buil
 
 ## 🌐 Live Demo
 
-**[Try it live here!]([https://agent-[your-app-id].streamlit.app](https://crl8gjhqggscbi8ikatrjd.streamlit.app/))**
-
+https://crl8gjhqggscbi8ikatrjd.streamlit.app/
